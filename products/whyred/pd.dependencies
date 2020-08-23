@@ -1,0 +1,20 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "ItsVixano/vendor_xiaomi_whyred",
+        "target_path":  "device/xiaomi/whyred",
+        "revision":     "pdx-caf"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ItsVixano/vendor_xiaomi_whyred",
+        "target_path":  "device/xiaomi/whyred",
+        "revision":     "pdx-caf"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sreekfreak995/kranul",
+        "target_path":  "kernel/xiaomi/whyred",
+        "revision":     "eas-old-cam"
+    }
+]
