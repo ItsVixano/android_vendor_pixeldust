@@ -38,6 +38,10 @@ include vendor/pixeldust/configs/pixeldust_phone.mk
 # Include optional stuff (e.g. prebuilt apps)
 include vendor/pixeldust/configs/system_optional.mk
 
+PRODUCT_PACKAGES += \
+    Mms \
+    Messaging
+
 PRODUCT_NAME := pixeldust_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
