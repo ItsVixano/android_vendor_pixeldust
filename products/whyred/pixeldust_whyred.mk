@@ -42,6 +42,9 @@ PRODUCT_PACKAGES += \
     Mms \
     Messaging
 
+# Face Unlock
+$(call inherit-product-if-exists, external/motorola/faceunlock/faceunlock.mk)
+
 PRODUCT_NAME := pixeldust_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
